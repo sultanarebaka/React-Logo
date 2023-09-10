@@ -27,3 +27,21 @@ body{
     width: 2em;
     height: 0.5em;
 }
+
+.react-logo::before{
+    left: -0.1em;
+    transform: rotate(60deg);
+}
+.react-logo::after{
+    right: -0.1em;
+    transform: rotate(-60deg);
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
