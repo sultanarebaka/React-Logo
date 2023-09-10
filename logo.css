@@ -1,7 +1,7 @@
 
 html{
     font-size: 20px;
-    background: black;
+    background: black no-repeat;
 }
 body{
     font-size: 10em;
@@ -9,35 +9,29 @@ body{
     padding: 0;
 }
 .react-logo{
-    
-background: radial-gradient(circle,    #61dafb 59%, transparent 50%);    
- background-size: 0.5em 100%;
-    border-radius: 50%;   
-    width: 2em;
-    height: 0.5em;    
-    top:50%;
+    position: absolute;
+    top: 63%;
     left: 0;
     right: 0;
     margin: auto;
-    position: absolute;
+    transform: translateY(-50%);
+    width: 2em;
+    height: 0.5em;
     border: 0.1em solid #61dafb;
-    no-repeat:center;
+    background: radial-gradient(circle, #61dafb 48%, transparent 50%) 
+    no-repeat center center;
     background-size: 0.5em 100%;
     border-radius: 50%;
-    transform: translateY(-50%);
 }
-
 .react-logo::before, .react-logo::after{
     content: "";
     position: absolute;
     top: -0.1em;
-    width: 2em;
-    height: 0.5em;
     border-radius: 50%;
     border: 0.1em solid #61dafb;
- 
+    width: 2em;
+    height: 0.5em;
 }
-
 .react-logo::before{
     left: -0.1em;
     transform: rotate(60deg);
@@ -46,7 +40,21 @@ background: radial-gradient(circle,    #61dafb 59%, transparent 50%);
     right: -0.1em;
     transform: rotate(-60deg);
 }
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
