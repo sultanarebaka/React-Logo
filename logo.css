@@ -17,3 +17,13 @@ body{
     margin: auto;
     position: absolute;
 }
+
+.react-logo::before, .react-logo::after{
+    content: "";
+    position: absolute;
+    top: -0.1em;
+    border-radius: 50%;
+    border: 0.1em solid #61dafb;
+    width: 2em;
+    height: 0.5em;
+}
